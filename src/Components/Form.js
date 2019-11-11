@@ -24,7 +24,7 @@ class Form  extends React.Component {
         
         if(file){
             axios({
-                url:'http://localhost:5001/api/v1/s3/upload_photo',
+                url:'/api/v1/s3/upload_photo',
                 method:'POST',
                 headers:{},
                 data:formdata
